@@ -1,3 +1,4 @@
+export const runtime = 'nodejs';
 import { NextResponse } from 'next/server';
 import { getDb, getSessionUser, saveDb } from '../../../lib/db.js';
 import { CHARITY_MIN_RATE, computeCharityContribution, computePrizeContribution, renewalDateFor } from '../../../lib/core.js';

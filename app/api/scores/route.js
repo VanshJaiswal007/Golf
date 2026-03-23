@@ -1,3 +1,4 @@
+export const runtime = 'nodejs';
 import { NextResponse } from 'next/server';
 import { enforceRollingFive, getDb, getSessionUser, saveDb } from '../../../lib/db.js';
 import { clamp, makeId, safeInt } from '../../../lib/core.js';

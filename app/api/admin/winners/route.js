@@ -1,3 +1,4 @@
+export const runtime = 'nodejs';
 import { NextResponse } from 'next/server';
 import { getDb, getSessionUser, saveDb } from '../../../../lib/db.js';
 
