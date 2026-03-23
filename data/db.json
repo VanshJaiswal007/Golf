@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": "user_tsspowlo_mn3nkkjd",
+      "name": "Admin",
+      "email": "admin@golfcharity.local",
+      "passwordHash": "eae669971a34fcccce3008db44ad76e5:9d894d649b0a3117216fe1afc911cacea04994388d02ffde2a5424acb155c90f",
+      "role": "admin",
+      "subscriptionStatus": "active",
+      "subscriptionPlan": "yearly",
+      "renewalDate": null,
+      "charityId": null,
+      "charityContribution": 10,
+      "createdAt": "2026-03-23T20:43:13.273Z"
+    },
+    {
+      "id": "user_t3kmb9lj_mn3ob13x",
+      "name": "Vansh Jaiswal",
+      "email": "vanshjaiswalofficial7@gmail.com",
+      "passwordHash": "febb85124b7d2475759ba4c05440a9a5:223f7085595330a59ee42e739821c8139efad54b0e2b518fb5260dd0ea284450",
+      "role": "user",
+      "subscriptionStatus": "inactive",
+      "subscriptionPlan": null,
+      "renewalDate": null,
+      "charityId": null,
+      "charityContribution": 10,
+      "createdAt": "2026-03-23T21:03:47.864Z"
+    }
+  ],
+  "charities": [
+    {
+      "id": "charity_3gfy9utb_mn3nkkje",
+      "name": "Fairway Futures",
+      "description": "A charity focused on youth access, coaching, and community support.",
+      "imageUrl": "",
+      "spotlight": true,
+      "events": "Junior sports day and coaching camps",
+      "createdAt": "2026-03-23T20:43:13.274Z"
+    },
+    {
+      "id": "charity_xqmlvup7_mn3nkkje",
+      "name": "Bright Greens Aid",
+      "description": "Supports local relief, education, and family assistance programs.",
+      "imageUrl": "",
+      "spotlight": false,
+      "events": "Monthly volunteer outreach",
+      "createdAt": "2026-03-23T20:43:13.274Z"
+    },
+    {
+      "id": "charity_chsnm7d6_mn3nkkje",
+      "name": "Hope Match Fund",
+      "description": "Funds emergency help and long-term community uplift initiatives.",
+      "imageUrl": "",
+      "spotlight": false,
+      "events": "Community fundraising walk",
+      "createdAt": "2026-03-23T20:43:13.274Z"
+    }
+  ],
+  "scores": [],
+  "draws": [],
+  "winners": [],
+  "sessions": [
+    {
+      "token": "b1fa79b0fcbb77346662194ee7364aa674e4f3cc434c9ed9e2688184af39c44e",
+      "userId": "user_t3kmb9lj_mn3ob13x",
+      "expiresAt": "2026-04-22T21:03:47.864Z",
+      "createdAt": "2026-03-23T21:03:47.864Z"
+    }
+  ],
+  "notifications": [],
+  "settings": {
+    "monthlyPrice": 499,
+    "yearlyPrice": 4999,
+    "prizePoolBalance": 0,
+    "charityFundTotal": 0,
+    "platformRevenue": 0,
+    "jackpotCarry": 0,
+    "drawMode": "random",
+    "month": "2026-03"
+  }
+}
